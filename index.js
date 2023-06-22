@@ -3,7 +3,7 @@ Sconst express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my app!!!!!!");
+  res.send("Welcome to my ECS app!!!!!!");
 });
 
 app.get("/info", (req, res) => {
